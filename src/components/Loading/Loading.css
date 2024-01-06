@@ -1,0 +1,13 @@
+.loading-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+.loading-wrapper .loading {
+  margin: auto;
+  background: none;
+  display: block;
+  shape-rendering: auto;
+}

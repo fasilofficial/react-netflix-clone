@@ -1,0 +1,45 @@
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+.row {
+  scroll-behavior: smooth;
+}
+.title-parent {
+  display: flex;
+}
+.row h2 {
+  color: #fff;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 1em;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  width: 11em;
+  /* max-height: 250px; */
+}
+.large {
+  width: 20em;
+}
+
+.poster:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: all ease-in-out 300ms;
+}
